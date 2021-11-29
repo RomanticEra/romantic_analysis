@@ -1,0 +1,14 @@
+include: lib/analysis_options.yaml
+
+linter:
+  rules:
+    # ALWAYS specify @required on named parameter before other named parameters.
+    # Conflicts with the convention used by flutter, which puts `Key key`
+    # and `@required Widget child` last.
+    always_put_required_named_parameters_first: false
+
+    public_member_api_docs: false
+    # Useful for packages but not for apps
+    type_annotate_public_apis: false
+
+    avoid_print: false
