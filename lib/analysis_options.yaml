@@ -33,8 +33,8 @@ analyzer:
 # Explicitly disable only the rules we do not want.
 linter:
   rules:
-    public_member_api_docs: false
-
-    avoid_print: false
-
+    always_put_control_body_on_new_line: false
+    always_specify_types: false
+    prefer_double_quotes: false
+    prefer_final_parameters: false
     unnecessary_final: false
